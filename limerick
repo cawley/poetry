@@ -1,0 +1,12 @@
+public class Limerick extends Poem{
+   int[] syllables = new int[5];
+   public Limerick(){
+      int[] syllables = {9,9,6,6,9};
+   }
+   public int numLines(){
+      return syllables.length;
+   }
+   public int getSyllables(int k){
+      return syllables[k];
+   }
+}
